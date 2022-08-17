@@ -1,0 +1,29 @@
+{
+  "name": "resume_website",
+  "version": "1.0.0",
+  "description": "resume",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "eslint:fix": "eslint --fix --ignore-path .gitignore",
+    "eslint:check": "eslint --ignore-path .gitignore",
+    "format:fix": "prettier --write . --ignore-path .gitignore --ignore-path .prettierignore",
+    "format:check": "prettier --check . --ignore-path .gitignore --ignore-path .prettierignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YarikHumanities/Resume_website.git"
+  },
+  "author": "Yarik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YarikHumanities/Resume_website/issues"
+  },
+  "homepage": "https://github.com/YarikHumanities/Resume_website#readme",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-plugin-sonar": "^0.9.1",
+    "husky": "^8.0.1",
+    "prettier": "2.7.1"
+  }
+}
